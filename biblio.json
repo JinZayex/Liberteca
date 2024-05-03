@@ -1,17 +1,13 @@
 {
-    "nome": "John Doe",
-    "età": 30,
-    "genere": "maschio",
-    "indirizzo": {
-      "via": "123 Via delle Rose",
-      "città": "Città Example",
-      "CAP": "12345",
-      "stato": "Paese Example"
+    {
+        "nome": "John Doe",
+        "età": 30,
+        "genere": "maschio",
     },
-    "interessi": ["musica", "viaggi", "tecnologia"],
-    "contatti": {
-      "email": "john.doe@example.com",
-      "telefono": "+1234567890"
+    {
+        "nome": "Jenny Doe",
+        "età": 25,
+        "genere": "femmina",
+        
     }
-  }
-  
+}
