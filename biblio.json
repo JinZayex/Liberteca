@@ -1,7 +1,12 @@
-{
-    
-        "nome": "John Doe",
-        "età": 30,
-        "genere": "maschio"
-   
-}
+[
+  {
+    "nome": "John Doe",
+    "età": 30,
+    "genere": "maschio"
+  },
+  {
+    "nome": "Jane Smith",
+    "età": 25,
+    "genere": "femmina"
+  }
+]
