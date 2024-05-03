@@ -7,16 +7,7 @@
 </head>
 <body>
     <h1>Dati dal file JSON</h1>
-    <div id="output"></div>
-
-    <script>
-        // Utilizziamo la funzione fetch per caricare il file JSON
-        fetch('biblio.json')
-            .then(response => response.json()) // Converti la risposta in formato JSON
-            .then(data => {
-                document.getElementById('output').innerHTML = JSON.stringify(data, null, 2);
-            })
-            .catch(error => console.error('Errore:---->', error));
-    </script>
+  
+  
 </body>
 </html>
