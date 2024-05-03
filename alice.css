@@ -1,0 +1,20 @@
+html,body{    
+    background-color: #DA4167;
+    
+}
+
+
+#alice1{
+    background-color: #4169ff;
+    border: 20px inset #f6f6f4;
+
+    margin: 50px;
+    
+    box-sizing: border-box; /* Include the margin within the width and height */
+
+}
+
+#alice1:hover{
+    border-style: outset;
+    background-color: yellow;
+}
