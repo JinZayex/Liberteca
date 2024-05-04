@@ -10,5 +10,11 @@
         "titolo": "Il Tao della fisica",
         "contributore": "jin",
         "link": "./Docs/Il Tao della fisica.pdf"
+    },
+    {
+        "autore": "Cecilia Gatto Trocchi",
+        "titolo": "I tarocchi",
+        "contributore": "jin",
+        "link": "./Docs/I tarocchi.pdf"
     }
   ]
