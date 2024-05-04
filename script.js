@@ -12,5 +12,3 @@ fetch('biblio.json')
     })
     .catch(error => console.error('Errore:', error));
 
-console.log("my data", data)
-
