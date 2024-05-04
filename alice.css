@@ -1,21 +1,22 @@
 html,body{    
     background-color: #DA4167;
-    
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
-h1{text-align: center;}
+a {text-decoration: none; color:rgb(194, 213, 249)}
 
-#alice1{
-    background-color: #4169ff;
-    border: 20px inset #f6f6f4;
+a:hover{ font-style: italic;text-decoration: underline; }
+a:visited{ color: black; }
 
-    margin: 50px;
-    
-    box-sizing: border-box; /* Include the margin within the width and height */
-
+h1{ font-size: 60px; 
+    text-align: center; 
+    margin-bottom: -10px;
 }
+    
+h2{ font-size: 40px; 
+    text-align: center; 
+    margin-top: -10px;
 
-#alice1:hover{
-    border-style: outset;
-    background-color: yellow;
 }
