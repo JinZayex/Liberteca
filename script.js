@@ -16,7 +16,15 @@ fetch('biblio.json')
             var p = document.createElement("p");          // Create a new h1 element
             p.textContent = "da: " + element.contributore;                 // Set the content of the h1 element to the name of the current element
             document.body.appendChild(p);   
-        
+
+            var iframe = document.createElement("iframe");
+            iframe.src = element.link;
+            iframe.scrolling = "yes";
+            iframe.allowfullscreen="true"
+            iframe.width="210px"
+            iframe.height="297px"
+            document.body.appendChild(iframe);
+            
             var a = document.createElement("a");
             a.href = element.link;
             a.download = element.titolo;
