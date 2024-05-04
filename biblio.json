@@ -1,12 +1,14 @@
 [
-  {
-    "nome": "John Doe",
-    "età": 30,
-    "genere": "maschio"
-  },
-  {
-    "nome": "Jane Smith",
-    "età": 25,
-    "genere": "femmina"
-  }
-]
+    {
+      "autore": "tiqqun",
+      "titolo": "tiqqun",
+      "contributore": "jin",
+      "link": "./Docs/tiqqun.pdf"
+    },
+    {
+        "autore": "Fritjof Capra",
+        "titolo": "Il Tao della fisica",
+        "contributore": "jin",
+        "link": "./Docs/Il Tao della fisica.pdf"
+    }
+  ]
